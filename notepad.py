@@ -7,7 +7,7 @@ import win32print
 
 def newFile(event=None):
     global file
-    root.title("Untitled - Advanced Text Editor")
+    root.title("Untitled - Pro Text Editor")
     file = None
     TextArea.delete(1.0, END)
     update_status_bar()
